@@ -14,3 +14,32 @@ void temperature_converter(int temp, bool sh) {
     print(tem);
   }
 }
+
+// BETTER GODE
+/*
+import 'dart:io';
+
+void main() {
+  stdout.write("Enter a temperature: ");
+  var temp = double.parse(stdin.readLineSync()!);
+
+  stdout.write("Is this temperature in Fahrenheit? (true/false): ");
+  var isFahrenheit = (stdin.readLineSync()?.toLowerCase() == 'true');
+
+  double convertedTemperature = temperature_converter(temp, isFahrenheit);
+
+  if (isFahrenheit) {
+    print("$temp Fahrenheit is $convertedTemperature Celsius.");
+  } else {
+    print("$temp Celsius is $convertedTemperature Fahrenheit.");
+  }
+}
+
+double temperature_converter(double temp, bool isFahrenheit) {
+  if (isFahrenheit) {
+    return (temp - 32) * 5 / 9;
+  } else {
+    return (temp * 9 / 5) + 32;
+  }
+}
+*/
