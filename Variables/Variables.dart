@@ -1,3 +1,3 @@
 void main(){
-  print("Lest undrstand varriables")
+  print("Lest undrstand varriables");
 }
