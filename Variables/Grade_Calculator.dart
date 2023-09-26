@@ -1,5 +1,5 @@
 void main(){
-  var test_score = 5;
+  var test_score = 70;
   grade_calculator(test_score);
 }
 
