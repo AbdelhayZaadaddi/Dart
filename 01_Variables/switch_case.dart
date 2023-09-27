@@ -1,6 +1,6 @@
 void main(){
   // Swich Case Statements: Applicable for only 'int' and 'string'
-  String grad = 'A';
+  String grad = 'E';
   switch (grad){
     case 'A':
       print("Execellent grade of A");
