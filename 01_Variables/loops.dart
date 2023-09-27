@@ -13,5 +13,5 @@ void main(){
   do {
     print("$y Hello do while!");
     y++;
-  } while (y < 5)
+  } while (y < 5);
 }
