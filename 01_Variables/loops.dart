@@ -12,6 +12,6 @@ void main(){
   var y = 0;
   do {
     print("$y Hello do while!");
-    y++
+    y++;
   } while (y < 5)
 }
