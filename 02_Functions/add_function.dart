@@ -2,16 +2,18 @@ void main(){
   int a, b;
   a = 10;
   b = 9;
-  add_function(a, b);
-  sub_function(a, b);
+  var n = add_function(a, b);
+  var m = sub_function(a, b);
+  print(n);
+  print(m);
 }
 
-void add_function(int a, int b){
+int add_function(int a, int b){
   var result = a + b;
-  print(result);
+  return result;
 }
 
-void sub_function(int a, int b){
+int sub_function(int a, int b){
   var result = a - b;
-  print(result);
+  return result;
 }
