@@ -23,4 +23,15 @@ void main(){
   fruits.forEach((key, value) {
     print('$key is $value');
   });
+
+  // 6 Cheking if a key Exists:
+  if (fruits.containsKey('apple')){
+    print('Exists');
+  }
+
+  // 7 Getting Keys an Values:
+  var Keys = fruits.keys.toList(); // List of keys
+  var values = fruits.values.toList(); // List of values
+
+  print(Keys + values);
 }
