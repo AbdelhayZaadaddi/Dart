@@ -5,7 +5,7 @@ void main(){
   add_function(a, b);
 }
 
-int add_function(int a, int b){
+void add_function(int a, int b){
   var result = a + b;
-  return result;
+  print(result);
 }
