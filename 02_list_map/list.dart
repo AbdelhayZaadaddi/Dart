@@ -1,6 +1,6 @@
 void main(){
   // Using List constructor
-  List<int> numbers = List<int>();
+  //List<int> numbers = List<int>();
 
   // Using list literal
   List<String> fruits = ['apple', 'banana', 'cherry'];
