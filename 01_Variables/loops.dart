@@ -8,4 +8,10 @@ void main(){
     print("$n Hello while!");
     n++;
   }
+
+  var y = 0;
+  do {
+    print("$y Hello do while!");
+    y++
+  } while (y < 5)
 }
