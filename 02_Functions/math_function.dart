@@ -8,11 +8,13 @@ void main(){
   print(m);
 }
 
+// ADD Function
 int add_function(int a, int b){
   var result = a + b;
   return result;
 }
 
+// Sub Function
 int sub_function(int a, int b){
   var result = a - b;
   return result;
